@@ -13,6 +13,11 @@ you will need 4 things:
 3. A looker view where you define a map_layer, dimension and mesaure, you will find it as "view_read_map.view"
 4. a database which cointains the measures of the diffrents ZONES or POLYGONS YOU WANT TO PLOT.
 
+this would be the files organization
+![image](https://user-images.githubusercontent.com/54046607/141038317-168798de-4d2c-4650-af99-c5528e8c86ae.png)
+
+
+
 IMPORTANT INFORMATION
 the only way to relationate the polygons and the database measures is by "property_key" parameter in the map_layer funtcion which you can relate with the "geounit" property in the topojson file, and in the data base connection it has be call the same way. see the images
 a) the topojson file view in a json viewr
